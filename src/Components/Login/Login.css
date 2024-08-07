@@ -1,0 +1,113 @@
+/* .loginParentDiv {
+    border: 1px solid black;
+    width: max-content;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+  }
+  
+  .loginParentDiv .input {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline-color: transparent;
+  }
+  
+  .loginParentDiv button {
+    width: 100%;
+    height: 48px;
+    /* border-color: transparent; 
+    background-color: #002f34;
+    color: whitesmoke;
+    font-weight: 900;
+  }
+  .loginParentDiv button:hover {
+    background-color: white;
+    color: #002f34;
+    border: 2px solid #002f34;
+  }
+  
+  .loginParentDiv a {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+   */
+   /* Login.css */
+
+.loginParentDiv {
+  width: 300px;
+  margin: 10px auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginParentDiv img {
+  margin-top: 0px;
+  height: 100px;
+  width: 100px;
+}
+
+.loginParentDiv form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.loginParentDiv label {
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+
+.loginParentDiv .input {
+  width: 100%;
+  padding: 10px;
+  margin: -13px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.error {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.loginParentDiv button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.loginParentDiv button:hover {
+  background-color: #0056b3;
+}
+
+.loginParentDiv a {
+  display: block;
+  margin-top: 15px;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.loginParentDiv a:hover {
+  color: #0056b3;
+}
