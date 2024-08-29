@@ -83,7 +83,7 @@ function Posts() {
       </div>
       <div className="postParentDiv">
       <div className="moreView">
-      <h4>Fresh recommendations</h4>
+      <h4>Fresh recommendations</h4> 
   <div className="heading">
     
   </div>
